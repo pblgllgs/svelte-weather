@@ -1,8 +1,8 @@
 const FETCH_OPTIONS = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'e625c3eca0mshc0bcd0d389a9f3ap1f72d3jsncc7e67cfc4ee',
-		'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
+		'X-RapidAPI-Key': import.meta.env.VITE_RAPID_API_KEY,
+		'X-RapidAPI-Host': import.meta.env.VITE_RAPID_API_HOST
 	}
 };
 
