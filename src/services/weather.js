@@ -19,14 +19,15 @@ export const getWeatherFrom = async (query = 'chillan') => {
 	return {
 		localtime,
 		country,
-		name,
+		locationName: name,
 		condition,
 		humidity,
 		feelslike: feelslike_c,
 		windSpeed: wind_kph,
 		windDir: wind_dir,
 		isDay: is_day,
+		temperature: temp_c,
 		conditionCode: code,
 		conditionText: text
 	};
-}
+};
